@@ -1,0 +1,56 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[top=1.5in, bottom=40mm]{geometry}%
+\usepackage{wallpaper}
+\setlength{\hoffset}{8mm}
+\setlength{\voffset}{8mm}
+
+\ULCornerWallPaper{0.43}{ustc}
+\URCornerWallPaper{0.53}{line}
+
+\definecolor{ustcblue}{cmyk}{1,0.8,0,0} 
+
+\newcommand{\sqbox}{\textcolor{ustcblue}{\hskip.3mm\rule[.25mm]{1mm}{1mm}\hskip.4mm\ }}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhfoffset[l]{23mm}
+\fancyhfoffset[r]{20mm}
+\renewcommand{\footrule}{{\color{ustcblue}%
+\vskip-\footruleskip\vskip-\footrulewidth
+\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+\renewcommand{\footrulewidth}{1pt}
+\setlength{\footskip}{40pt}
+
+\cfoot{\scriptsize{\vspace{7pt} \hfill \hfill \sqbox USTC,  96 JinZhai Road, Hefei, Anhui, P.R.China, 230026 \sqbox \hfill  \sqbox http://www.ustc.edu.cn/ \sqbox \hfill\hfill}}
+
+\setlength{\oddsidemargin}{0mm}
+%\setlength{\evensidemargin}{0.25in}
+\setlength{\textwidth}{145mm}
+%\setlength{\marginparwidth}{1.2in}
+
+\usepackage{lipsum}% provides filler text
+
+\begin{document}
+
+\begin{letter}
+{Professor Name-goes-here\\
+School of Mathematical Sciences\\
+Some University\\
+Some City, IN 47906}
+
+\opening{Dear Professor Name-goes-here,}
+\thispagestyle{fancy}
+
+\lipsum[1-10]% just dumps ten paragraphs of filler text
+
+\closing{Sincerely,}
+\bigskip
+
+%\encl{Some-other-stuff-goes-here}
+%\cc{Another-name-goes-hear}
+%Uncomment these last two if you you "enclosures" and "cc"
+
+\end{letter}
+
+\end{document}

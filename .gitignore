@@ -1,0 +1,11 @@
+# 只上传模板相关件
+*.pdf
+!line.pdf
+!ustc.pdf
+!ustc-letter.pdf
+
+*.tex
+!ustc-letter.tex
+
+
+
