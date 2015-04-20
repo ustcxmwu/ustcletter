@@ -7,5 +7,12 @@
 *.tex
 !ustc-letter.tex
 
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex
+
+
 
 
