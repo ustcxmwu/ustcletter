@@ -2,10 +2,12 @@
 *.pdf
 !line.pdf
 !ustc.pdf
-!ustc-letter.pdf
+!ustc-letter-en.pdf
+!ustc-letter-cn.pdf
 
 *.tex
-!ustc-letter.tex
+!ustc-letter-en.tex
+!ustc-letter-cn.tex
 
 *.aux
 *.bbl

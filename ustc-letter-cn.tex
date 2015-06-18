@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[top=1.5in, bottom=40mm]{geometry}%
+\usepackage{wallpaper}
+\usepackage{ctex}
+\setlength{\hoffset}{8mm}
+\setlength{\voffset}{8mm}
+
+\ULCornerWallPaper{0.43}{ustc}
+\URCornerWallPaper{0.53}{line}
+
+\definecolor{ustcblue}{cmyk}{1,0.8,0,0}
+
+\newcommand{\sqbox}{\textcolor{ustcblue}{\hskip.3mm\rule[.25mm]{1mm}{1mm}\hskip.4mm\ }}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhfoffset[l]{23mm}
+\fancyhfoffset[r]{20mm}
+\renewcommand{\footrule}{{\color{ustcblue}%
+\vskip-\footruleskip\vskip-\footrulewidth
+\hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+\renewcommand{\footrulewidth}{1pt}
+\setlength{\footskip}{40pt}
+
+\cfoot{\scriptsize{\vspace{7pt} \hfill \hfill \sqbox USTC,  96 JinZhai Road, Hefei, Anhui, P.R.China, 230026 \sqbox \hfill  \sqbox http://www.ustc.edu.cn/ \sqbox \hfill\hfill}}
+
+\setlength{\oddsidemargin}{0mm}
+%\setlength{\evensidemargin}{0.25in}
+\setlength{\textwidth}{145mm}
+%\setlength{\marginparwidth}{1.2in}
+
+\usepackage{lipsum}% provides filler text
+
+\name{吴晓民}
+\address{吴晓民\\
+安徽省合肥市黄山路443号\\
+中国科学技术大学西区科技实验楼西楼1318\\
+安徽 合肥, 230026}
+
+\begin{document}
+\begin{letter}
+{顾嫕姼\\
+上海市浦东新区金穗路1800号\\
+上海华为技术有限公司\\
+上海, 200135}
+
+\opening{顾嫕姼 女士,}
+\thispagestyle{fancy}
+
+您好, 快递中是中国科学技术大学自动化系几个人(吴晓民,徐理想,项导,朱锐意)参加2015年4月17日华为 Workshop 的发票, 请查收. 另请将所有报销款项转至以下账户:
+
+账户名: 吴晓民
+
+账户: 6013 8215 0000 5389 070
+
+开户行: 中国银行安徽省合肥市望江中路支行
+
+
+\closing{Sincerely,}
+\bigskip
+
+
+%\encl{Some-other-stuff-goes-here}
+%\cc{Another-name-goes-hear}
+%Uncomment these last two if you you "enclosures" and "cc"
+\vfill
+\end{letter}
+\vfill
+
+\end{document}
